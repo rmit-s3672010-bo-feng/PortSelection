@@ -23,7 +23,7 @@ public class StartUp {
 					System.out.println("Please enter the second port number range from 61000 to 61999");
 					int portNumber2 = input.nextInt();
 					SS.add(studentNumber, portNumber1, portNumber2);
-					MailController.sendMail(studentNumber + ":" + portNumber1 + ":" + portNumber2);
+					MailController.sendMail("{"+studentNumber + "," + portNumber1 + "," + portNumber2+"}");
 					SS.writeToFile();
 					System.out.println(studentNumber + " has selected the port number " + portNumber1 + " and "
 							+ portNumber2 + " successfully");
