@@ -10,7 +10,7 @@ public class MailController {
 		String myEmailAccount = "grace.haruka.233@gmail.com";
 		String myEmailPassword = "nvymzlpbxpmzrtix";
 		String myEmailSMTPHost = "smtp.gmail.com";
-		String receiveMailAccount = "s3672010@student.rmit.edu.au";
+		String receiveMailAccount = "fengling.han@rmit.edu.au";
 
 		Properties props = new Properties();
 		props.setProperty("mail.transport.protocol", "smtp");

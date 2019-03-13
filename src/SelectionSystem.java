@@ -32,7 +32,7 @@ public class SelectionSystem {
 				throw new studentNumberRepeatException("The student number is repeated.");
 			} else if (portNumber1 == student.getPortNumber1() || portNumber1 == student.getPortNumber2()) {
 				if (portNumber2 == student.getPortNumber1() || portNumber2 == student.getPortNumber2()) {
-					throw new portNumberRepeatException("The tow port numbers are both occupied");
+					throw new portNumberRepeatException("The two port numbers are both occupied");
 				} else {
 					throw new portNumberRepeatException("The first port number is occupied");
 				}
